@@ -1,0 +1,120 @@
+<!-- Created by amit mishra-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  
+  
+</div>
+
+<div class = "main-con">
+    
+<h1>
+    Welcome to our <b style="color:#009900;">cyber World.</b>
+</h1>
+<button class="btn">REGISTER NOW</button>
+
+<h1 id="demo"></h1>
+    <script>
+    
+   function printTime() {
+   var d = new Date();
+   var hour = d.getHours();
+   var min = d.getMinutes();
+   var sec = d.getSeconds();
+   document.getElementById("demo").innerHTML =
+   hour+":"+min+":"+sec
+   
+   
+   
+       
+       
+       
+       
+   } 
+   setInterval(printTime ,100)    
+        
+        
+        
+        
+    </script></div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<div class="con1">
+    <div class="tri">
+        <h2 class="text1">There are a thousand hacking at the branches of evil to one who is striking at the root. </h2>
+    </div>
+    <bulibs class="btn">READ THE REPORT</button>
+</div>
+
+<section class="read">
+    <h2 class="q2"><b style="color:#009900">Hacking</b> involves a different way of looking at problems that no one's thought of.</h2>
+    <button class="btn">JOIN NOW</button>
+</section>
+
+
+<h3 style="color:white">Contact Form</h3>
+    <div class="container">
+ <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+    <option id="value="india">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<footer>
+    <h3 class="flow">FLOW US</h3>
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<p style="color:white;">created by  amit mishra--</p>
+<p style="color:white; text-align:center; padding-bottom:20px;margin:0;">copyright 2022&copy;</p>
+
+    </select>
+
+    
+</footer>
+
+</body>
+</html>
